@@ -24,7 +24,7 @@ public class Basics {
 		.then().log().all().assertThat().statusCode(200).body("scope",equalTo("APP"))
 		.header("server", "Apache/2.4.41 (Ubuntu)");
 		
-		
+		System.out.println(".....");
 		//Add place -> Update Place with NEw Adress -> Get place to validate if new address is present in response
 		
 
